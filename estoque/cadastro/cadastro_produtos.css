@@ -1,0 +1,162 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-color: #0E3252 ;
+    display: flex;
+    
+    
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    background-color: #0E3252 ;
+    display: flex;
+    padding: 10px;
+    margin:30px;
+    color: aliceblue;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 0px;
+    
+
+
+}
+
+.imagem-logo{
+    width: 100%;
+    background-color: #0E3252 ;
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    justify-self: unset;
+    
+    
+
+}
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 275px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 100; /* Stay at the top */
+    left: 10;
+    background-color: #BB9C6F; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    
+    padding: 10px 8px 6px 16px;
+    margin: 5%;
+   text-decoration:wavy;
+    font-size: 21px;
+    color: #ffffff;
+    display: block;
+    font-family: 'Fira Sans', sans-serif;
+     background-color:  #0E3252
+     
+
+
+  }
+
+  .sidenav h1{
+    padding: 20px 20px 20px 25px;
+    margin: 20%;
+   font-size: 40px;
+    color: #ffffff;
+    display: flex;
+    background-color: #0E3252;
+    font-family: 'Fira Sans', sans-serif;
+
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #8d8d8d;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  #cadastro {
+    background-color: #BB9C6F;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 630px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 10px 5px 5px rgb(41, 40, 40);
+    border-radius: 10px;
+  }
+/*  #campo_texto{
+    width: 86%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 11%;
+    height: 50%;
+    border: none;
+    font-size:20pt;
+    font-family: 'fe-font';
+    outline: none;
+    background-color: #BB9C6F;
+}*/
+.container {
+    margin-left: 830px;
+    margin-top: 120px;
+    background-color: #BB9C6F;
+    width: 380px;
+    height: 5rem;
+    border:1px solid;
+    border-radius: 10px;
+    border-color: #8d8d8d;
+}
+.card-header{
+    text-align: center;
+    font-size: 20pt;
+    padding-top: 20px;
+}
+.card-body{
+    padding:5px;
+    margin-top: 30px;
+    border-style: solid;
+    width: 380px;
+    margin-left: -4px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #8d8d8d;
+}
+.form-control{
+    width: 330px;
+    margin-left: 30px ;
+    border: 1px solid rgba(190, 166, 166, 0.5);
+    border-radius: 5px;
+}
+#name{
+    height: 40px;
+}
+#preco{
+    margin-top: 15px;
+    height: 40px;
+}
+#qty{
+    margin-top: 15px;
+    height: 40px;
+}
